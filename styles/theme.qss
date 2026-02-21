@@ -1,0 +1,64 @@
+/* Main Window */
+QMainWindow {
+    background-color: #020617;
+    color: #E5E7EB;
+}
+
+/* Sidebar */
+#Sidebar {
+    background-color: #020617;
+    border-right: 1px solid #1E293B;
+}
+
+/* Title */
+#Title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #38BDF8;
+    padding: 20px;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: transparent;
+    color: #CBD5E1;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+QPushButton:hover {
+    background-color: #1E293B;
+    color: #38BDF8;
+}
+
+/* Content */
+#Content {
+    font-size: 20px;
+}
+#Card {
+    background: #020617;
+    border: 1px solid #1E293B;
+    border-radius: 15px;
+    padding: 20px;
+}
+/* Cards */
+
+#Card {
+    background-color: #020617;
+    border: 1px solid #1E293B;
+    border-radius: 15px;
+    padding: 20px;
+    min-width: 180px;
+}
+
+#CardTitle {
+    font-size: 14px;
+    color: #94A3B8;
+}
+
+#CardValue {
+    font-size: 28px;
+    font-weight: bold;
+    color: #38BDF8;
+}
